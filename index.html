@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore El Salvador | Alojamientos Exclusivos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Explore SV</div>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Experiencias</a></li>
+            <li><a href="#reservacion">Reservar</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Descubre el Refugio Perfecto</h1>
+            <p>Desde la frescura de El Pital hasta el lujo de los Hoteles Boutique en Suchitoto.</p>
+            <a href="#servicios" class="cta-button">Ver Alojamientos</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="nosotros" class="container">
+            <h2>Nuestra Pasión por El Salvador</h2>
+            <p>Somos expertos en conectar viajeros con los rincones más mágicos del país. Desde cabañas acogedoras en la montaña hasta glampings frente al lago, seleccionamos cada destino para garantizar una conexión auténtica con la naturaleza y cultura salvadoreña.</p>
+        </section>
+
+        <section id="servicios" class="container">
+            <h2>Nuestros Alojamientos</h2>
+            <div class="services-grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=500" alt="Cabaña de montaña">
+                    <h3>Cabañas de Montaña</h3>
+                    <p>Ubicadas en El Pital y Perquín. Clima fresco y vistas espectaculares.</p>
+                    <span class="price">Desde $75.00</span>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1523464862212-d6631d073194?q=80&w=500" alt="Hotel Boutique">
+                    <h3>Hoteles Boutique</h3>
+                    <p>Lujo y elegancia en el centro histórico y ciudades coloniales.</p>
+                    <span class="price">Desde $120.00</span>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=500" alt="Glamping">
+                    <h3>Glamping Experience</h3>
+                    <p>Acampar con comodidad frente al Lago de Coatepeque.</p>
+                    <span class="price">Desde $95.00</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="reservacion" class="container">
+            <h2>Solicita tu Reservación</h2>
+            <form id="reserva-form" novalidate>
+                <div class="form-group">
+                    <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Correo Electrónico" required>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-group">
+                    <select id="tipo" required>
+                        <option value="">Selecciona alojamiento...</option>
+                        <option value="cabana">Cabaña</option>
+                        <option value="boutique">Hotel Boutique</option>
+                        <option value="glamping">Glamping</option>
+                    </select>
+                    <small class="error-msg"></small>
+                </div>
+                <button type="submit">Confirmar Disponibilidad</button>
+            </form>
+            <div id="mensaje-exito" class="hidden">¡Gracias! Nos contactaremos pronto.</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Explore El Salvador - Todos los derechos reservados.</p>
+            <p>Desarrollado por el Grupo de Proyecto Web</p>
+            <div class="socials">
+                <span>FB</span> | <span>IG</span> | <span>TW</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

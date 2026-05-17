@@ -67,7 +67,8 @@ body {
     margin: 5px 0;
     transition: 0.3s;
 }
-
+    
+/* */
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
